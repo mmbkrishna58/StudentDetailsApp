@@ -1,0 +1,22 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio specific files
+.vs/
+.vscode/
+
+# ASP.NET Core specific files
+*.db
+*.bak
+*.sql
+
+# Sensitive files
+secrets.json
+
+# Log files
+*.log
