@@ -3,6 +3,9 @@ pipeline {
 
     environment {
         DOTNET_ROOT = tool name: 'dotnet-sdk', type: 'Dotnet'
+        AZURE_CLIENT_ID = credentials('691bb4b0-a9f7-4efc-8149-dea80e303015')
+        AZURE_CLIENT_SECRET = credentials('327f00cd-c06e-4cbf-a3f4-777081a6a7b2')
+        AZURE_TENANT_ID = credentials('aef09d48-ff70-4c0c-91ea-649955679039')
     }
 
     stages {
